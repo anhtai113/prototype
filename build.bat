@@ -1,0 +1,1 @@
+tsc --outFile script/index.js NameValue.ts View.ts AppView.ts ArrayStringFunction.ts Behavior.ts Command.ts Field.ts FieldObjectMap.ts FieldType.ts Filter.ts Html.ts Lov.ts Messages.ts StyleFilter.ts Table.ts TableView.ts Thing.ts UserHistory.ts Validation.ts PersonTable.ts Person.ts

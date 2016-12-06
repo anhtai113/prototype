@@ -1,0 +1,11 @@
+Things to do:
+switch to DataSource instead of Array<Thing>
+add Join or Relationship class
+add Query Form View
+add Query view
+add SelectionView to TableView or add MasterDetailsView or add listener to selections?
+add Current User Widget
+add Breadcrumb Path Widget
+add ToasterWidget
+add Navigation View
+add listener logic

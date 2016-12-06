@@ -1,0 +1,19 @@
+<html>
+<body>
+<script src="script/index.js">
+</script>
+<script>
+
+// normally this data comes from a database call
+var things = new Array();
+things.push(new Person('Tom','Nguyen', new Date(), 10));
+things.push(new Person('Sally','Huynh', new Date(), 5));
+things.push(new Person('Tai','Nguyen', new Date(), 162));
+
+
+var personView = new TableView("table of persons", PersonTable.table, things, null);
+
+var appView = new AppView("test", things, PersonTable.table, personView);
+appView.render();
+</script>
+<body>
